@@ -25,7 +25,7 @@ MathJax = {
 
 An extension to add annotation support to MathJax. It is your job to decide how to render the annotations.
 
-## Usage
+### Usage
 The following code:
 ````TeX
 \newcommand{\R}{\mathbb R}
@@ -60,8 +60,6 @@ will produce output like the following after MathJax has typeset:
 
 <span class="dataset" id="MathJax-Span-25" data-first-prop="hello" data-second-prop="world"><span class="mi" id="MathJax-Span-26" style="font-family: MathJax_Main;">exp</span></span>
 ```
-
-## brutalnewcommand
 
 ## load-head
 This is a MathJax extension which helps with loading large numbers of macros.
