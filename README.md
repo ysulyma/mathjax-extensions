@@ -61,6 +61,10 @@ will produce output like the following after MathJax has typeset:
 <span class="dataset" id="MathJax-Span-25" data-first-prop="hello" data-second-prop="world"><span class="mi" id="MathJax-Span-26" style="font-family: MathJax_Main;">exp</span></span>
 ```
 
+## input
+
+MathJax 3 port of the MathJax 2.x [FormInput](https://github.com/mathjax/MathJax-third-party-extensions/tree/master/legacy/forminput) extension, based on [this comment](https://github.com/mathjax/MathJax/issues/2210). Uses `\input` instead of `\FormInput`, but otherwise has same syntax: `\FormInput[size][class][value]{name}`. Note the `name` attribute also sets the `id`.
+
 ## load-head
 This is a MathJax extension which helps with loading large numbers of macros.
 
